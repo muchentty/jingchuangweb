@@ -1,0 +1,722 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/homePage/homePage",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+
+
+		{
+			"path": "pages/Venue-facilities/Venue-facilities",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+
+		{
+			"path": "pages/Information-details/Information-details",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/All-information/All-information",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+
+
+
+		{
+			"path": "pages/appreciation/appreciation",
+			"style": {
+				"navigationBarTitleText": "艺术鉴赏",
+				"enablePullDownRefresh": false
+
+			}
+
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/hierarchy/hierarchy",
+			"style": {
+				"navigationBarTitleText": "层级",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/consult/consult",
+			"style": {
+				"navigationBarTitleText": "文化资讯",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/contents/contents",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/inheritance/inheritance",
+			"style": {
+				"navigationBarTitleText": "非遗传承",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mien/mien",
+			"style": {
+				"navigationBarTitleText": "艺团风采",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/group-details/group-details",
+			"style": {
+				"navigationBarTitleText": "艺团详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/subscribe/subscribe",
+			"style": {
+				"navigationBarTitleText": "预定信息填写",
+				"enablePullDownRefresh": false
+
+			}
+
+		}, {
+			"path": "pages/venue-reservation/venue-reservation",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+
+			}
+
+		}, {
+			"path": "pages/venue-details/venue-details",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+
+			}
+
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/wx_login/wx_login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/introduction-rehearsal/introduction-rehearsal",
+			"style": {
+				"navigationBarTitleText": "场地详情",
+				"enablePullDownRefresh": false
+
+			}
+		}
+
+		, {
+			"path": "pages/address-booking/address-booking",
+			"style": {
+				"navigationBarTitleText": "场地预定",
+				"enablePullDownRefresh": false
+
+			}
+		}, {
+			"path": "pages/activity-participation/activity-participation",
+			"style": {
+				"navigationBarTitleText": "活动参与",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/activity-details/activity-details",
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"enablePullDownRefresh": false
+
+			}
+		}, {
+			"path": "pages/programme-booking-details/programme-booking-details",
+			"style": {
+				"navigationBarTitleText": "活动预约信息",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/got-tickets/got-tickets",
+			"style": {
+				"navigationBarTitleText": "抢票成功",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/leaderboard/leaderboard",
+			"style": {
+				"navigationBarTitleText": "排行榜",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/address-bookingsuccess/address-bookingsuccess",
+			"style": {
+				"navigationBarTitleText": "预定状态",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/participation/participation",
+			"style": {
+				"navigationBarTitleText": "赛事参与",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/participation-details/participation-details",
+			"style": {
+				"navigationBarTitleText": "赛事详情",
+				"enablePullDownRefresh": false
+				// "navigationBarBackgroundColor":"#FFFFFF"
+			}
+		}
+
+		, {
+			"path": "pages/participation-Production-details/participation-Production-details",
+			"style": {
+				"navigationBarTitleText": "作品详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/tourist-attraction/tourist-attraction",
+			"style": {
+				"navigationBarTitleText": "旅游景点",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/tourist-attraction-details/tourist-attraction-details",
+			"style": {
+				"navigationBarTitleText": "旅游景点详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/tourist-route/tourist-route",
+			"style": {
+				"navigationBarTitleText": "旅游路线",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/tourist-day-trip/tourist-day-trip",
+			"style": {
+				"navigationBarTitleText": "一日游",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/specials-foods/specials-foods",
+			"style": {
+				"navigationBarTitleText": "特色美食",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/specials-foods-details/specials-foods-details",
+			"style": {
+				"navigationBarTitleText": "美食详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/hotel/hotel",
+			"style": {
+				"navigationBarTitleText": "民宿酒店",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/hotel-details/hotel-details",
+			"style": {
+				"navigationBarTitleText": "酒店详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user-feedback/user-feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user-about/user-about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user-information/user-information",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user-head/user-head",
+			"style": {
+				"navigationBarTitleText": "头像",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user-edit-name/user-edit-name",
+			"style": {
+				"navigationBarTitleText": "修改昵称",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user-order/user-order",
+			"style": {
+				"navigationBarTitleText": "预约",
+				"enablePullDownRefresh": false
+			}
+		},
+		// {
+		// 	"path": "pages/user-security-center/user-security-center",
+		// 	"style": {
+		// 		"navigationBarTitleText": "安全中心",
+		// 		"enablePullDownRefresh": false
+		// 	}
+		// }, 
+		{
+			"path": "pages/user-password/user-password",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user-phone/user-phone",
+			"style": {
+				"navigationBarTitleText": "更换手机号",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user-collection/user-collection",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/book-details/book-details",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/Stories/Stories",
+			"style": {
+				"navigationBarTitleText": "目录",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/events/events",
+			"style": {
+				"navigationBarTitleText": "上传作品",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/book-resources/book-resources",
+			"style": {
+				"navigationBarTitleText": "资源",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/book-details-mian/book-details-mian",
+			"style": {
+				"navigationBarTitleText": "{{}}",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/culturalmap/culturalmap",
+			"style": {}
+		}, {
+			"path": "pages/Announcement-list/Announcement-list",
+			"style": {
+				"navigationBarTitleText": "公告列表",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/live/live",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Announcement-list-details/Announcement-list-details",
+			"style": {
+				"navigationBarTitleText": "公告详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/works-list/works-list",
+			"style": {
+				"navigationBarTitleText": "作品列表",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/Stories-details/Stories-details",
+			"style": {
+				"navigationBarTitleText": "故事详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/enter-live/enter-live",
+			"style": {
+				"navigationBarTitleText": "文化直播",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/Stories1/Stories1",
+			"style": {
+				"navigationBarTitleText": "正文",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/map_search/map_search",
+			"style": {
+				"navigationBarTitleText": "文化地图",
+				"enablePullDownRefresh": false
+			}
+		}
+
+		, {
+			"path": "pages/Stories-video/Stories-video",
+			"style": {
+				"navigationBarTitleText": "多媒体",
+				"enablePullDownRefresh": false
+			}
+		}
+
+
+
+		, {
+			"path": "pages/Venue-Details-item/Venue-Details-item",
+			"style": {
+				"navigationBarTitleText": "pc场馆详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Art-Troupe-list/Art-Troupe-list",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Art-Ttoupelist-details/Art-Ttoupelist-details",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+		//pc文化地图
+		, {
+			"path": "pages/Art-map/Art-map",
+			"style": {
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Event-reservation/Event-reservation",
+			"style": {
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Appointment-details/Appointment-details",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Culturallive-broadcast/Culturallive-broadcast",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Culturallive-broadcast-details/Culturallive-broadcast-details",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+		//赛事参与
+		, {
+			"path": "pages/Event-participation/Event-participation",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+		//赛事参与详情页
+		, {
+			"path": "pages/Event-participation-details/Event-participation-details",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+		//赛事参与-上传作品
+		, {
+			"path": "pages/Upload-work/Upload-work",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, 
+		//旅游景点
+		{
+			"path": "pages/tourist-attraction-pc/tourist-attraction-pc",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}
+	    ,{
+            "path" : "pages/torist-attract-detail-pc/torist-attract-detail-pc",
+            "style" :                                                                                    
+            {
+               "app-plus": {
+               	"titleNView": false
+               }
+            }
+            
+        }
+		//场地预定
+        ,{
+            "path" : "pages/Site-reservation/Site-reservation",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+		//节目预约
+        ,{
+            "path" : "pages/Program-reservation/Program-reservation",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+		//活动场次预约
+        ,{
+            "path" : "pages/Session-reservation/Session-reservation",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+		//pc登录
+        ,{
+            "path" : "pages/PClogin/PClogin",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+		//pc注册
+        ,{
+            "path" : "pages/PCregister/PCregister",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+		//pc文化地图
+        ,{
+            "path" : "pages/Cultural-map/Cultural-map",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/cultural/cultural",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文物保护",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		//文化课堂
+		,{
+		    "path" : "pages/classroom/classroom",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "文化课堂",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		//文化课堂详情
+		,{
+		    "path" : "pages/classDetail/classDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "课程详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		//文化课堂预约
+		,{
+		    "path" : "pages/class-enroll/class-enroll",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "预约信息",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/roomList/roomList",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "课堂列表",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/large-set/large-set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "赶大集",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/large-set-detail/large-set-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar":{
+		"color": "#666666",
+		"selectedColor": "#FF4E5A",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/ic_homepagea.png",
+				"selectedIconPath": "static/ic_homepage.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "/static/ic_wode.png",
+				"selectedIconPath": "static/ic_wodea.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom", // 设置成 custom 即可解决微信H5双标题的问题
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "文化馆",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		// "rpxCalcMaxDeviceWidth": 960, // rpx 计算所支持的最大设备宽度，单位 px，默认值为 960
+		// "rpxCalcBaseDeviceWidth": 375, // rpx 计算使用的基准设备宽度，设备实际宽度超出 rpx 计算所支持的最大设备宽度时将按基准宽度计算，单位 px，默认值为 375
+		// "rpxCalcIncludeWidth": 750 // rpx 计算特殊处理的值，始终按实际的设备宽度计算，单位 rpx，默认值为 750
+	},
+	"id": "x-audio-play",
+	"name": "小程序音频播放，mp3播放",
+	"version": "1.0.1",
+	"description": "适用于小程序平台，其它平台暂未测试，支持自定义播放暂停图标，支持暂停，支持拖拽快进等，定制化强",
+	"keywords": [
+		"音频，mp3，音频播放，mp3播放，播放"
+	]
+}
